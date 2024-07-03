@@ -73,4 +73,4 @@ async def chat(request: Request, pdf_filename: str = Form(...)):
 
 
 if __name__ == "__main__":
-    uvicorn.run("app:app", host='0.0.0.0', port=8888, reload=True)
+    uvicorn.run("app:app", host='0.0.0.0', port=8080, reload=True)
